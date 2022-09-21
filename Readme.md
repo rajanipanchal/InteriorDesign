@@ -7,7 +7,7 @@
 <br>
 
 ## Project live link
-[https://myinterior-design.netlify.app]( "https://myinterior-design.netlify.app")
+[https://myinterior-design.netlify.app](https://myinterior-design.netlify.app/ "project01")
 
 <hr>
 
