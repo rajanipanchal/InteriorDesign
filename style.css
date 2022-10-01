@@ -235,12 +235,12 @@ a.nav-link:hover{
     letter-spacing: 1px;
 }
 .contant7 {
-    margin-top: 60px;
+ padding: 80px;
     font-family: 'Montserrat';
     font-weight: 900;
     color: #000000b5;
     line-height:2.2em;
-    margin-left: 140px;
+   
 }
 .contant8 {
     margin-top: 30px;
@@ -268,11 +268,19 @@ a.nav-link:hover{
     font-size: 10px;
     font-family: 'Montserrat';
     font-weight: 600;
-
     padding-left: 25px;
     padding-right: 25px;
 }
-
+@media(max-width:480px){
+    .contant8 button{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    .heading2 h1{
+        font-size: 20px;
+    }
+}
 .contant8 button img {
     background-color: white;
     width: 20px;
@@ -293,9 +301,6 @@ a.nav-link:hover{
     display: block;
 }
 
-.contant10 .box1 img {
-    width: 146px;
-}
 .contant10 .box1 {
     display: block;
     
@@ -310,6 +315,11 @@ a.nav-link:hover{
     color: #000000bf;
     line-height: 1.8em;
     
+}
+@media(max-width:768px) {
+    .contant10 .box1 p {
+        text-align: center;
+    }
 }
 .contant10 .box2 {
     display: block;
@@ -388,7 +398,7 @@ input[type="text"] {
     font-size: 15px;
     font-family: 'Montserrat';
     text-transform: capitalize;
-    margin-left: 140px;
+    text-align: center;
     font-weight: 600;
 }
 
@@ -755,22 +765,20 @@ button.btn.btn-primary {
 
 .portfolio_heading {
     position: absolute;
-    top: 28%;
-    left: 40%;
     text-align: center;
     text-transform: uppercase;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%,-67%);
 }
-@media(max-width:700px){  
-.portfolio_heading{
+
+.portfolio_heading h1 {
     text-align: center;
-    display: block;
-    position: absolute;
-    left: 25%;
+    font-family: 'montserrat';
+    font-weight: bolder;
 }
-    .portfolio_heading h1 {
-        text-align: center;
-    }
-}
+
+
 .portfolio_heading h1 
 {
     font-size: 40px;
@@ -814,22 +822,13 @@ button.btn.btn-primary {
 
 .services_heading {
     position: absolute;
-    top: 28%;
-    left: 40%;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%,-68%);
     text-transform: uppercase;
 }
 
-@media(max-width:700px){  
-    .services_heading{
-        text-align: center;
-        display: block;
-        position: absolute;
-        left: 25%;
-    }
-        .services_heading h1 {
-            text-align: center;
-        }
-    }
+
 .services_heading h1 {
     font-size: 40px;
     font-family: 'Montserrat';
